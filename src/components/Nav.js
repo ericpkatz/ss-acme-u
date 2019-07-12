@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { fetchPosts } from '../store/actions/postActions';
 
-export class Nav extends Component {
+export default class Nav extends Component {
     
     // componentDidMount(){
     //     this.props.fetchPosts(); // fetchPosts comes over as props
